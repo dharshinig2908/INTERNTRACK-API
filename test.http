@@ -1,0 +1,13 @@
+GET http://localhost:3000/api/internships
+
+###
+
+POST http://localhost:3000/api/internships
+Content-Type: application/json
+
+{
+  "title": "Web Development Intern",
+  "company": "ABC Technologies",
+  "location": "Coimbatore",
+  "description": "Learn web development"
+}
